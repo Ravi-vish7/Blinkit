@@ -107,7 +107,7 @@ button{
     list-style: none;
 }
 .container{
-    height: 100%;
+    min-height: 100%;
     width: 100%;
     padding: 10px 0px;
     background-color: #F3F5FA;
@@ -182,4 +182,13 @@ button{
 .mp{
     color: gray;
     text-decoration: line-through;
+}
+
+@media (max-width:728px){
+    nav{
+        display: none;
+    }
+    .sub-nav{
+        display: none;
+    }
 }
